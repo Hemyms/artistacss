@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins';
+  display: table-cell;
+}
+
+header, #principal, #second, #contato, #stream {
+	display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right:80px ;
+}
+
+img{
+  width: 300px;
+  margin:30px;
+}
+
+#logo{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 50px;
+  margin-left: 70px;
+}
+
+#menu{
+  margin-right: 50px;
+}
+.link-menu {
+  color: #fff;
+  background-color: #555;
+  justify-content: end;
+  padding: 5px;
+  border: solid transparent;
+  border-radius: 0.2rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.item-menu{
+  display: inline-block;
+  margin: 10px;
+}
+
+p{
+  margin-right: 200px;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.f {
+  background-color: #5b305a;
+}
+
+.l {
+  background-color: #e49756;
+}
+
+.m {
+  background-color: #e04b5a;
+}
+
+main {
+  background-color: #333;
+  color: #ddd;
+}
+
+h1, h2 {
+  font-family: 'Amatic SC';
+  text-align: end;
+  margin-right: 150px;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+#second a{
+  text-decoration: none;
+  color: #fff;
+}
+
+#second{
+  margin: 50px;
+}
+
+#descricao{
+  border: solid 1px rgb(199, 199, 199);
+  padding: 30px;
+  width: 600px;
+}
+
+#acesso{
+  padding: 30px;
+  box-shadow: 0px 0px 30px 6px #333;
+  border-radius: 10px;
+  margin-right: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Amatic SC';
+  color: #fff;
+}
+
+#acesso.m img{
+  height: 50px;
+  width: 50px;
+}
+
+footer {
+  background-color: #333;
+  color: #ddd;
+  align-items: center; 
+  margin-top: 10px;
+}
+
+#contato{
+  margin-bottom: 0px;
+}
+#email a{
+  color:#fff
+}
+
+#email{
+  color:#fff;
+  margin-left: 100px;
+  
+}
+
+#social{
+  margin-right: 100px;
+  
+}
+
+footer img{
+  width: 30px;
+  margin-right: 0px;
+  align-items: end;
+}
+
+
