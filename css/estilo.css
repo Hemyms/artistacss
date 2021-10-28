@@ -82,7 +82,10 @@ h1, h2 {
 }
 
 #second{
-  margin: 50px;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: 50px;
+  margin-bottom: 60px;
 }
 
 #descricao{
@@ -111,6 +114,7 @@ footer {
   color: #ddd;
   align-items: center;
   margin-bottom:0px ; 
+  height: 70;
 }
 
 #contato{
