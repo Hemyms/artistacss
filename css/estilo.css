@@ -10,7 +10,6 @@ body {
 header, #principal, #second, #contato, #stream {
 	display: flex;
   align-items: center;
-  margin-top: 50p;
   justify-content: space-around;
   margin-right:80px ;
   
