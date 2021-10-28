@@ -3,19 +3,21 @@
 body {
   font-family: 'Poppins';
   display: table-cell;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 header, #principal, #second, #contato, #stream {
 	display: flex;
   align-items: center;
-  justify-content: space-between;
+  margin-top: 50p;
+  justify-content: space-around;
   margin-right:80px ;
   
 }
 
 img{
   width: 300px;
-  margin:30px;
 }
 
 #logo{
@@ -42,6 +44,10 @@ img{
 .item-menu{
   display: inline-block;
   margin: 10px;
+}
+
+#principal img{
+  margin-left: 100px;
 }
 
 p{
@@ -113,15 +119,15 @@ footer {
   background-color: #333;
   color: #ddd;
   align-items: center;
-  margin-bottom:0px ; 
-  height: 70;
+  justify-content: center;
 }
 
 #contato{
-  height: 70px;
+  height: 60px;
 }
+
 #email a{
-  color:#fff
+  color:#fff;
 }
 
 #email{
@@ -131,8 +137,7 @@ footer {
 }
 
 footer img{
+  margin: 0px;
+  margin-left: 10px;
   width: 30px;
-  margin-right: 0px;
 }
-
-
